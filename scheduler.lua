@@ -9,9 +9,6 @@ math.randomseed(os.time())
 num_weeks = 11
 num_games = 6
 
-size = table.getn(div1_games)
-print(size)
-
 -- first 11 weeks, mix in div games
 for week=1,num_weeks do
     --  1    2    3    4    5    6    7    8    9    10   11
