@@ -31,8 +31,6 @@ function week_picker(div_pool, num_div, nondiv_pool, num_non)
                 factor = 0
             end
 
-            -- print("  Game " .. game .. " Mod " .. mod .. " Factor " .. factor .. " Calc " .. ((3-game)*factor))
-
             done = false
             while not done do
                 rand = math.random(mod);
@@ -62,11 +60,9 @@ function week_picker(div_pool, num_div, nondiv_pool, num_non)
                 factor = 0
             end
             
-            -- print("  Game " .. game .. " Mod " .. mod .. " Factor " .. factor .. " Calc " .. ((3-(game-num_div))*factor))
-
             done = false
             while not done do
-                rand = math.random(mod);
+                rand = math.random(mod)
                 rand = rand + ( (3 - (game-num_div)) * factor )
                 if (contains_team(week_games,nondiv_pool[rand].x) == false) and 
                    (contains_team(week_games,nondiv_pool[rand].y) == false) then
