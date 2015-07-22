@@ -25,6 +25,7 @@ How to Use
    Probably also worth renaming it to something unique
    since ./runner.sh will delete the schedule.txt file
 4. Run:
+
         lua finisher.lua skeleton_file.txt > final_file.txt
 5. ?
 6. Profit
