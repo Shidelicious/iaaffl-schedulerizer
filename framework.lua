@@ -3,20 +3,20 @@ num_non = 48
 num_names = 12
 
 div_names = {
+  {name=" Shidle "},
+  {name=" Krasovec "},
   {name=" Atkinson "},
   {name=" Feltes "},
-  {name=" Krasovec "},
-  {name=" Shidle "},
 ----------------------------------------
-  {name=" Gabrius "},
-  {name=" Laughlin "},
-  {name=" Peil "},
   {name=" Sedlack "},
+  {name=" Hamilton "},
+  {name=" Laughlin "},
+  {name=" Gabrius "},
 ----------------------------------------
+  {name=" Wong?!? "},
   {name=" BWONG "},
   {name=" Gottlieb "},
-  {name=" Romashko "},
-  {name=" Wong?!? "}
+  {name=" Romashko "}
 }
 
 div_interface = {
